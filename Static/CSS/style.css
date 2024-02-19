@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
+* {
+    padding: 0;
+    margin: 10px;
+}
+body {
+    font-family: 'Oswald', sans-serif;
+    color: darkgoldenrod;
+    font-size: 16px;
+}
+.header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.logo-link {
+    font-family: 'Fredoka One', cursive;
+    color: chocolate;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+.nav ul li {
+    margin: 0 1rem;
+}
+.nav ul li a {
+    color: burlywood;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s;
+}
+.nav ul li a:hover {
+    background-color: chocolate;
+    color:white;
+}
+.btn {
+    background: darkgoldenrod;
+    border: 0;
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn-outerline {
+    background: transparent;
+    border: 2px solid darksalmon;
+    color: burlywood;
+}
+.btn-outerline:hover {
+    background-color: chocolate;
+    color: burlywood;
+}
+.responsive {
+    width: 100%;
+}
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.col-4 {
+    width: 40%;
+}
+.col-6 {
+    width: 60%;
+}
+.content {
+    padding: 0 2rem;
+}
+h3 {
+    color: chocolate;
+    text-transform: uppercase;
+    font-size: 35px;
+    text-align: top;
+}
+p {
+    font-weight: 400;
+}
+.btn-solid {
+    background-color: chocolate;
+    color: burlywood;
+    padding: 0.75rem 2rem;
+}
+.button-group {
+    margin-top: 2rem;
+}
+.wraper {
+    margin-top: 2rem;
+}
