@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}" />
+        <title>Title</title>
+    </head>
+    <body>
+        <main>
+            <div class="container">
+                <div class="header">
+                    <div class="logo">
+                        <a href="#" class="logo-link">AUTIS-AID</a>
+                    </div>
+                    <div class="nav">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Login/Signup</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-button">
+                        <button class="btn btn-outerline">Contact Us</button>
+                    </div>
+                </div>
+                <div class="wraper">
+                    <div class="main-section">
+                        <div class="row">
+                            <div class="col-6">
+                                <img
+                                    src="{{url_for('static',filename='images/hero-banner.jpg')}}"
+                                    alt=""
+                                    class="responsive"
+                                />
+                            </div>
+                            <div class="col-4">
+                                <div class="content">
+                                    <h3>EMOTION DETECTION OF AN AUTISTIC CHILD</h3>
+                                    <p>
+                                        Live Monitoring, Detecting, and Alerting of behaviour that
+                                        challenges. You can start by clicking ' Start Camera' button
+                                        below.
+                                    </p>
+                                    <div class="button-group">
+                                        <a href='/webcam' class="btn btn-solid">Start Camera</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
